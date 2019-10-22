@@ -43,7 +43,7 @@ class Intervals:
             if item[0][0] <= port <= item[0][1]:
                 if self.ipLTOrEq(item[1][0], ip) and self.ipLTOrEq(ip, item[1][1]):
                     return True
-        return False    x
+        return False
 
 class Firewall:
     def __init__(self, path):
